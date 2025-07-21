@@ -30,9 +30,9 @@ public class addingTwoProductsToCart {
 		driver.findElement(By.id("login")).click();
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(8));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".offset-md-0")));
-		WebElement firstProduct = driver.findElement(By.xpath("(//button[@data-product-id='1']"));
+		WebElement firstProduct = driver.findElement(By.xpath("(button[data-product-id='1']"));
 		firstProduct.click();
-		WebElement secondProduct = driver.findElement(By.xpath("//button[@data-product-id='2']"));
+		WebElement secondProduct = driver.findElement(By.xpath("button[data-product-id='2']"));
 		secondProduct.click();
 		
 		
