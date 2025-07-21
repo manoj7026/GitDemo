@@ -4,6 +4,11 @@ public class demo {
 
 	public void demoMethod()
 	{
-		System.out.println("newly added class and method ");
+		System.out.println("newly added class and method by gitx");
+	}
+	
+	public void demoMethod2()
+	{
+		System.out.println("newly added class and method by gitdemo");
 	}
 }
